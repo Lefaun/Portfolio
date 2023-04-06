@@ -4,6 +4,27 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="Página Virando", page_icon="📖")
     st.title("Página Virando")
+    st.markdown("""
+    
+     <head>
+    <style>
+    .video  {
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    min-wi
+                     z-index: -1;
+                    }
+        </style>
+        <body>
+        <video autoplay muted loop>
+            <source src ="Video.mp4" type="video/mp4"
+            </video>
+            </body>
+            </html>
+        
+    
+        """, unsafe_allow_html=True)
 
     st.markdown("""
     <html>
@@ -79,14 +100,6 @@ def main():
                     transform: translate(-50%,-50%);
                     z-index: -1;
                     }
-        </style>
-        </head>
-        <body>
-        <video autoplay muted loop>
-            <source src ="Video.mp4" type="video/mp4"
-            </video>
-            </body>
-            </html>
         
     """, unsafe_allow_html=True)
 
