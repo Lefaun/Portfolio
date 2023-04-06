@@ -5,15 +5,20 @@ def main():
     st.set_page_config(page_title="Página Virando", page_icon="📖")
     st.title("Página Virando")
     st.markdown("""
-    
+    <html>
      <head>
     <style>
     .video  {
                     position: fixed;
                     top: 50%;
                     left: 50%;
-                    min-wi
-                     z-index: -1;
+                    min-widht:100%;
+                    min-height:100%;
+                    width: auto;
+                    height: auto;
+                    transform: translate(-50%,-50%);
+                    z-index: -1;
+                    
                     }
         </style>
         <body>
