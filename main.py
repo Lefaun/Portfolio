@@ -83,7 +83,7 @@ def main():
         </head>
         <body>
         <video autoplay muted loop>
-            <source src ="/Users/paulomonteiro/PycharmProjects/Portfoliobook/Video.mp4" type="video/mp4"
+            <source src ="Video.mp4" type="video/mp4"
             </video>
             </body>
             </html>
