@@ -12,11 +12,11 @@ def main():
                 <h1 background-color="orange" align= 'center' color= "white" >Página de Frente</h1>
                 <p margin= '10px'>  este é um exemplo de realidade virtual 
                 este é um exemplo de realidade virtualeste é um exemplo de realidade virtualvvvveste é um exemplo de realidade virtualeste é um exemplo de realidade virtual</p>
-                <img src="/Users/paulomonteiro/PycharmProjects/Portfoliobook/imagem5.png">
+                <img src="imagem5.png">
             </div>
             <div class="page midlle">
                 <h1>Página de meio</h1>
-                 <img src="/Users/paulomonteiro/PycharmProjects/Portfoliobook/imagem3.png">
+                 <img src="imagem3.png">
             </div>
             <div class="page middle2">
                 <h1>Página de pagina</h1>
@@ -49,7 +49,7 @@ def main():
                 transform-origin: top left; /* define o ponto de origem da rotação */
                 transform-style: preserve-3d;
                 transition: transform 3s;
-               # backface-visibility: hidden; /* oculta a parte de trás da página */
+                #backface-visibility: hidden; /* oculta a parte de trás da página */
             }
 
             /* Definindo a página de frente */
